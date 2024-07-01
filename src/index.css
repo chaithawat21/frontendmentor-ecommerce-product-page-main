@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+:root {
+  --Orange: hsl(26, 100%, 55%);
+  --PaleOrange: hsl(25, 100%, 94%);
+
+  --VeryDarkBlue: hsl(220, 13%, 13%);
+  --DarkGrayishBlue: hsl(219, 9%, 45%);
+  --GrayishBlue: hsl(220, 14%, 75%);
+  --LightGrayishBlue: hsl(223, 64%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+}
+.close {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(203deg) brightness(104%) contrast(101%);
+}
+
+.close:hover {
+  filter: brightness(0) saturate(100%) invert(55%) sepia(70%) saturate(2012%) hue-rotate(347deg) brightness(100%) contrast(102%);
+}
+.next:hover {
+  filter: brightness(0) saturate(100%) invert(55%) sepia(70%) saturate(2012%) hue-rotate(347deg) brightness(100%) contrast(102%);
+}
+.previous:hover{
+  filter: brightness(0) saturate(100%) invert(55%) sepia(70%) saturate(2012%) hue-rotate(347deg) brightness(100%) contrast(102%);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
